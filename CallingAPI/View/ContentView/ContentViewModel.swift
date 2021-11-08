@@ -25,7 +25,9 @@ class ContentViewModel: ObservableObject {
             
             do {
                 let courses = try JSONDecoder().decode([Courses].self, from: data)
-                self.courses = courses
+                DispatchQueue.main.async {
+                    self.courses = courses
+                }
             } catch {
                 print(error)
             }
