@@ -16,9 +16,7 @@ struct ContentView: View {
             List {
                 ForEach(viewModel.courses, id: \.self) { course in
                     HStack {
-                        Image("")
-                            .frame(width: 130, height: 70)
-                            .background(Color.gray)
+                        URLImage(urlString: course.image)
                         
                         Text(course.name)
                             .bold()
