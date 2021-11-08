@@ -24,6 +24,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Courses")
+            .listStyle(PlainListStyle())
             .onAppear { viewModel.fetchCourses() }
         }
     }
