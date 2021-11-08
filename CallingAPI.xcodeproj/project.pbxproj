@@ -60,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				7F48587D2739281600DEA41F /* ContentView */,
-				7F4858782739248500DEA41F /* URLImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -71,6 +70,7 @@
 				7FCB706127391B6100F3F39C /* ContentView.swift */,
 				7F48587427391FE400DEA41F /* ContentViewModel.swift */,
 				7F48587E273928FB00DEA41F /* CourseView.swift */,
+				7F4858782739248500DEA41F /* URLImage.swift */,
 			);
 			path = ContentView;
 			sourceTree = "<group>";
