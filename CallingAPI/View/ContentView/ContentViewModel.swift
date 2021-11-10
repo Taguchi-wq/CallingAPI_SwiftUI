@@ -13,25 +13,14 @@ class ContentViewModel: ObservableObject {
     
     func fetchCourses() {
         guard let url = URL(string: "https://iosacademy.io/api/v1/courses/index.php") else { return }
-        
-        URLSession.shared.dataTask(with: url) { data, _, error in
-            
-            if let error = error {
-                print(error)
-                return
-            }
-            
-            guard let data = data else { return }
-            
-            do {
-                let courses = try JSONDecoder().decode([Courses].self, from: data)
-                DispatchQueue.main.async {
-                    self.courses = courses
-                }
-            } catch {
+        NetworkManager.shared.fetch(url, type: [Courses].self) { result in
+            switch result {
+            case .success(let courses):
+                self.courses = courses
+            case .failure(let error):
                 print(error)
             }
-        }.resume()
+        }
     }
     
 }

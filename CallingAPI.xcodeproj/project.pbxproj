@@ -15,6 +15,7 @@
 		7FCB706227391B6100F3F39C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCB706127391B6100F3F39C /* ContentView.swift */; };
 		7FCB706427391B6300F3F39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCB706327391B6300F3F39C /* Assets.xcassets */; };
 		7FCB706727391B6300F3F39C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCB706627391B6300F3F39C /* Preview Assets.xcassets */; };
+		7FE19E24273B8090003E27D9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE19E23273B8090003E27D9 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7FCB706127391B6100F3F39C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FCB706327391B6300F3F39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FCB706627391B6300F3F39C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FE19E23273B8090003E27D9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				7F48587A273927A500DEA41F /* App */,
 				7F48587B273927B800DEA41F /* Model */,
 				7F48587C273927DD00DEA41F /* View */,
+				7FE19E23273B8090003E27D9 /* NetworkManager.swift */,
 				7FCB706327391B6300F3F39C /* Assets.xcassets */,
 				7FCB706527391B6300F3F39C /* Preview Content */,
 			);
@@ -184,6 +187,7 @@
 				7F48587527391FE400DEA41F /* ContentViewModel.swift in Sources */,
 				7F48587327391F8A00DEA41F /* Course.swift in Sources */,
 				7FCB706227391B6100F3F39C /* ContentView.swift in Sources */,
+				7FE19E24273B8090003E27D9 /* NetworkManager.swift in Sources */,
 				7F4858792739248500DEA41F /* URLImage.swift in Sources */,
 				7FCB706027391B6100F3F39C /* CallingAPIApp.swift in Sources */,
 				7F48587F273928FB00DEA41F /* CourseView.swift in Sources */,
